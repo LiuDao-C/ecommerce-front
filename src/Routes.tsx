@@ -7,7 +7,7 @@ import Shop from "./components/core/Shop";
 const MyRoutes = () => {
     return <HashRouter>
         <Switch>
-            <Route path="/" component={Home}></Route>
+            <Route exact path="/" component={Home}></Route>
             <Route path="/shop" component={Shop}></Route>
         </Switch>
     </HashRouter>
